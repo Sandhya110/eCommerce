@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row footer">
     <div class="col-sm-4 col-sm-offset-4">
         <div class="panel panel-default">
             {{-- <div class="panel-body">

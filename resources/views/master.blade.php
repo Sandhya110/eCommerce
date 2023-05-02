@@ -7,13 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>E-comm Project</title>
 
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
-        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"
-        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous">
-    </script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 </head>
 
@@ -27,6 +23,31 @@
     .custom-login {
         height: 500px;
         padding-top: 100px;
+    }
+
+    .slider-img {
+        height: 400px !important;
+    }
+
+    .custom-product {
+        height: 600px;
+    }
+
+    .trending-image {
+        height: 100px;
+    }
+
+    .trending-item {
+        float: left;
+        width: 20%;
+    }
+
+    .trending-wrapper {
+        margin: 50px;
+    }
+
+    .footer {
+        margin-top: 100px;
     }
 </style>
 
