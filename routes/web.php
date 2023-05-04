@@ -17,6 +17,9 @@ use Illuminate\Support\Facades\Session;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+Route::get('/register', function () {
+    return view('register');
+});
 
 Route::get('/login', function () {
     return view('login');
@@ -28,6 +31,7 @@ Route::get('/logout', function () {
 });
 
 Route::post('/login', [UserController::class, 'login']);
+Route::post('/register', [UserController::class, 'register']);
 Route::get('/', [ProductController::class, 'index']);
 // Route::get('/', [SliderController::class, 'slider']);
 Route::get('detail/{id}', [ProductController::class, 'detail']);
